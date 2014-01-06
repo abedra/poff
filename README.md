@@ -29,7 +29,7 @@ hash in `config/initializers/poff.rb`:
 
 ```ruby
 FeatureFlags = {
-  my_feature: :on
+  my_feature: :on,
   my_other_feature: :off
 }
 ```
