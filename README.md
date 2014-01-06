@@ -1,4 +1,4 @@
-# Poff (Plain Old Feature Flags
+# Poff (Plain Old Feature Flags)
 
 This gem is about as plain as they come. The point is to create a
 static feature flag gem that doesn't require any bindings, adapters,
