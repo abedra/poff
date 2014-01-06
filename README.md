@@ -1,6 +1,8 @@
-# Poff
+# Poff (Plain Old Feature Flags
 
-TODO: Write a gem description
+This gem is about as plain as they come. The point is to create a
+static feature flag gem that doesn't require any bindings, adapters,
+or database integration.
 
 ## Installation
 
@@ -16,9 +18,23 @@ Or install it yourself as:
 
     $ gem install poff
 
+Once the gem is installed, simply run the generator to create the initializer:
+
+    $ rails generate poff:initializer
+
 ## Usage
 
-TODO: Write usage instructions here
+When you want to create a feature, just add it to the `FeatureFlags`
+hash in `config/initializers/poff.rb`:
+
+```ruby
+FeatureFlags = {
+  my_feature: :on
+  my_other_feature: :off
+}
+```
+
+Just restart your app and the changes will be picked up.
 
 ## Contributing
 
