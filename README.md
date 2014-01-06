@@ -1,4 +1,4 @@
-# Poff (Plain Old Feature Flags)
+# Poff (Plain Old Feature Flags) [![Build Status](https://secure.travis-ci.org/abedra/poff.png)](http://travis-ci.org/abedra/poff?branch=master)
 
 This gem is about as plain as they come. The point is to create a
 static feature flag gem that doesn't require any bindings, adapters,
