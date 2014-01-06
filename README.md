@@ -34,7 +34,14 @@ FeatureFlags = {
 }
 ```
 
-Just restart your app and the changes will be picked up.
+Just restart your app and the changes will be picked up. When you want
+to check if a feature is enabled just call `Poff::Feature.enabled?`:
+
+```ruby
+if Poff::Feature.enabled?(:my_feature)
+  do_something_here
+end
+```
 
 ## Contributing
 
