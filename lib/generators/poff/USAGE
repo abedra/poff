@@ -1,0 +1,8 @@
+Description:
+	Generates the initializer file that holds the empty FeatureFlags hash
+
+Example:
+	rails generate poff:initializer
+
+	This will create:
+	     config/initializers/poff.rb
